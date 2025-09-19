@@ -98,7 +98,7 @@ color: var(--main-color);
 }
 
 
-@media (max-width:768px){
+@media (max-width:995px){
 
     nav{
         position: absolute;
@@ -508,4 +508,5 @@ span{
 .footer-text p{
     font-size: 1.6rem;
 }
+
 
