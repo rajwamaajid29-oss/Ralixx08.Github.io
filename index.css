@@ -166,8 +166,8 @@ color: var(--main-color);
 }
 
 .home-img img{
-    width: 25vw;
-    border-radius: 50%;
+    width: 300px;
+    border-radius: 50px 50px 50px 50px ;
 }
 
 .home-content h3 {
@@ -509,6 +509,7 @@ span{
 .footer-text p{
     font-size: 1.6rem;
 }
+
 
 
 
