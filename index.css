@@ -329,7 +329,7 @@ span{
     gap: 20;
 }
 .about img{
-    width: 30vw;
+    width: 300px;
     border-radius: 50px 50px 50px 50px;
 }    
 
@@ -509,6 +509,7 @@ span{
 .footer-text p{
     font-size: 1.6rem;
 }
+
 
 
 
