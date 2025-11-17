@@ -98,13 +98,13 @@ color: var(--main-color);
 }
 
 
-@media (max-width:995px){
+@media (max-width:768px){
 
     nav{
         position: absolute;
         top: 70px;
         left: 0;
-        width: 100%;
+        width: 100px;
         background: var(--second-bg-color--);
         transition: transform 0.4s ease;
         z-index: 100;
@@ -119,9 +119,10 @@ color: var(--main-color);
 
     .menu-icon{
         display: block;
+        margin: 0;
     }
 
-    #menu-toggle:checked~nav{
+    #menu-toggle:checked ~ nav{
         transform: translateY(0);
         opacity: 1;
         pointer-events: auto;
@@ -134,6 +135,7 @@ color: var(--main-color);
     padding: 125px;
     background:linear-gradient(rgb(23 103 129),rgb(11 11 11) );
 }
+
 @media(max-width : 768px){
     .home{
         flex-direction: column;
@@ -157,7 +159,6 @@ color: var(--main-color);
   
 }
 
-
 .home-img{
     justify-content: center;
     align-items: center;
@@ -167,7 +168,8 @@ color: var(--main-color);
 
 .home-img img{
     width: 300px;
-    border-radius: 50px 50px 50px 50px ;
+    border-radius:50px 50px 50px 50px;
+   
 }
 
 .home-content h3 {
@@ -264,7 +266,7 @@ span{
 
 @keyframes cursor{
     to{
-        border-left: 3px solid #00e9fe;
+        border-left: 2px solid #00e9fe;
     }
 }
 
@@ -293,7 +295,7 @@ span{
     gap: 20rem;
     padding: 100px;
     background:linear-gradient(rgb(11, 11, 11)  ) ;
-}
+} 
 @media(max-width: 1000px) {
     .about{
         gap: 4rem;
@@ -322,7 +324,7 @@ span{
         font-size: 4rem;
     }
 }  
-
+  
 .about.img{
     justify-content: center;
     align-items: center;
@@ -388,8 +390,14 @@ span{
     }
 }  
 
+.services{
+    justify-content: center;
+    align-items: center;
+}
+
+
 .services h3{
-    margin-top: 5rem;   
+    margin-top: 4rem;   
 }
 
 .services-container{
@@ -403,11 +411,11 @@ span{
 .services-container  .services-box{
     background: var(--second-bg-color);
     padding: 3rem 2rem 4rem;
-    border-radius: 2rem;
+    border-radius: 10rem;
     text-align: center;
     border: 2rem solid var(--bg-color) ;
     transition: .5s ease;
-}
+} 
 
 .services-container  .services-box:hover{
     border-color: var(--main-color);
